@@ -1,0 +1,230 @@
+/* Container */
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.navbar {
+	overflow: hidden;
+	
+	height:90px;
+	line-height: 70px;
+	background-color:#FFFFFF;
+	border-bottom: 2px solid #CF1D1D;
+	margin-top: 0; 
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	
+}
+.logo{
+	float: left;
+	
+	
+}
+
+/*this is gor menu tag*/
+.menu  {
+	float: right;
+	padding-right: 40px;
+}
+.menu li{
+	float: left;
+	width: 100px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	
+}
+.menu li a{
+	display: block;
+	color:#000000;
+	text-decoration: none;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+.menu li:hover{
+	background: #CF1D1D;
+	
+
+}
+.menu li a:hover{
+	color:#FFFFFF;
+}
+
+@media screen and (max-width:750px){
+	.index_img{float:left;}
+	
+}
+.content{
+	width: 100%;
+	
+}
+
+.index_img{
+	float:right;
+	width: 40%;
+	height: 400px;
+}
+
+.services{
+	display: block;
+	margin-top: 70px;
+	width: 60%;
+	height: 380px;
+    left: 20px;
+    background-color:#818181;
+    color: white;
+	padding-top: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+.list{text-align: left;
+	padding-left: 60px;
+}
+
+	
+.btn_quote {
+  border:none;
+  background-color: #CF1D1D;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+	
+}
+
+.btn_quote a {
+  border-color: #CF1D1D;
+  color: green;
+ 
+}
+
+.btn_quote:hover {
+  background-color:#DF2020;
+  color: black;
+}
+
+.moving_process{
+	width: 100%;
+	height: 480px;
+	padding-top: 20px;
+	background:#F1F0EA;
+	
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background:#818181;
+	
+}
+
+/* Slides */
+.mySlides {
+ display: none;
+  padding: 80px;
+  text-align: center;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+	
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+
+
+
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+
+.column {
+  float: left;
+  width: 20%;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 18px;
+
+}
+	
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+
+}
+
+
+.process{text-align: center;
+	margin-top: 20px;
+
+}
+.preparing{color: #CF1D1D
+}
+.collecting{color: #CF1D1D
+}
+.moving{color: #CF1D1D
+}
+.storage{color: #CF1D1D
+}	
+	
+.column1 {
+  float: left;
+  width: 31%;
+  margin-left: 30px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
